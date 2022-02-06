@@ -24,4 +24,7 @@ jobs:
       #   run: |
       #     echo "${{toJSON(github.event)}}"
       - name: PR Lint
-        uses: arjankowski/pull_request_lint@v1.8
+        uses: arjankowski/pull_request_lint@v1.0.0
+        with:
+          spelling-list: 'Jakis tytul'
+
